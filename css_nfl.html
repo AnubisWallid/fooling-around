@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div#x {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite ;
+  animation-direction: alternate;
+}
+
+div#x {
+border-radius: 75% 10%;
+
+}
+
+div#y {
+	/*border: 1px solid black;*/
+    top: 40%;
+  	width: 100%;
+	position: absolute;
+	text-align: center;
+
+}
+
+
+@keyframes example {
+0%   {left:0px; top:0px; transform: rotate(10deg);}
+25%  {left:200px; top:-60px;transform: rotate();}
+50%  {eft:400px; top:-100px;transform: rotate(45deg);}
+75%  {left:600px; top:-60px;transform: rotate();}
+100% {left:800px; top:0px;transform: rotate(80deg);}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation NFL</h1>
+
+
+<div id="x">
+<div id="y">
+
+GIRAAA!!
+</div>
+</div>
+
+</body>
+</html>
